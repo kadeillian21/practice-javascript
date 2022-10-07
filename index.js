@@ -34,3 +34,22 @@ person["name"] = "Wow";
 console.log(person.name);
 
 // Arrays!
+// Arrays are objects in JavaScript
+let selectedColors = ["red", "blue"]; // Square brackets indicate 'Array Literal'
+selectedColors[2] = "green";
+selectedColors[3] = 3; // Arrays can contain multiple data types in JavaScript
+console.log(selectedColors);
+
+// Functions
+// The below function is performing a task that is then displayed on the console
+function greet(name, lastName) {
+  console.log("Hello " + name + " " + lastName);
+}
+
+greet("Kade", "Mega");
+greet("Timbo");
+
+// The below function is Calculating a value
+function sqaure(number) {
+  return number * number;
+}
